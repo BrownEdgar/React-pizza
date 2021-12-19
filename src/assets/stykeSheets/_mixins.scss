@@ -1,0 +1,13 @@
+@mixin mainContainerRools($size) {
+	max-width: $size;
+	margin: 0 auto;
+}
+
+@mixin first($imageUrl, $size) {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: $size;
+	background-image: url($imageUrl);
+}
+
+

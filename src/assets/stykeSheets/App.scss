@@ -1,0 +1,11 @@
+@import "./variables";
+@import "./mixins";
+.App {
+	@include mainContainerRools($bodyMaxWidth);
+	h1{
+		background-color: darkred;
+		text-align: center;
+		padding: 0.5rem;
+		color:aqua;
+	}
+}
